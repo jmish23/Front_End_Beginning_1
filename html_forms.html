@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <p style="color: rgba(0, 217, 255, 0.884);"><strong>This is an HTML form</strong></p>
+    <title>HTML FORMS</title>
+    <body>
+        <h1><strong>This is an HTML Form</strong></h1>
+        
+    </body>
+    <form action="">
+       <label for="username" >Enter the username:</label >
+       <input type="text" id="username" name="username" placeholder="username"required>
+       
+       <br><br>
+       <label for="email_id" >Enter the Email-ID:</label >
+       <input type="email" id="email_id" name="email_id" placeholder="Email-ID"required>
+       <br><br>
+       <label for="password" >Enter the password:</label >
+       <input type="password" id="password" name="password" placeholder="password"required>
+       <br><br>
+    <p>Please select your age:</p>
+    <input type="radio" name="age" value="0-25" id="option_1">
+    <label for="option_1">0-25 yrs</label>
+    <input type="radio" name="age" value="25-30" id="option_2">
+    <label for="option_2">25-30 yrs</label>
+    <input type="radio" name="age" value="0-35" id="option_3">
+    <label for="option_3">30-35 yrs</label> <br><br>  
+        
+        <br><br>
+        <label for="security_question">Please answer the security question:</label>
+        <!--<input type="select" name="security_question" id="security_question">-->
+           <select name="security_question" id="security_question">
+            <option value="q1">What is my nickname?</option>
+            <option value="q2">What is my dog's name?</option>
+            <option value="q3">What colour is my favourite?</option>
+        </select>
+        <br><br>
+<textarea name="bio" id="bio" cols="30" rows="10" placeholder="enter your bio here..."></textarea >
+<br><br>
+<input type="submit" style=" margin: 4em; color: rgba(255, 0, 179, 0.664) ; background-color: rgb(238, 189, 170);" value="Submit the form">
+
+
+    </form>
+</head>
+
+
+
+
+</html>
